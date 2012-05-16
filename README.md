@@ -1,0 +1,4 @@
+LG.Base
+=======
+
+Base theme
