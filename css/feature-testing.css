@@ -1,0 +1,6 @@
+/* feature testing */
+.upgrade-wrap { position:absolute; width:100%; height:100%; left:0; top:0; background:#ccc; }
+.js.upgrade-wrap { display:none; }
+html.no-canvas .js.upgrade-wrap { display:block; }
+.upgrade-position { position:absolute; width:50%; height:50%; left:0; top:0; }
+.upgrade { position:absolute; width:600px; height:300px; right:-300px; bottom:-150px; background:#fff; }

@@ -1,0 +1,45 @@
+/*
+Theme Name: Base theme
+Version: 1.0
+Author: Little Giant
+Author URI: http://www.littlegiant.co.nz
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+@import "css/feature-testing.css";
+
+body, html { position:relative; min-height:100%; overflow:auto; }
+body { font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; color:#444; background:#fff;  }
+h1, h2, h3, h4, h5, h6 { font-weight:bold;margin-bottom:0.5em } 
+p {line-height:18px;font-size:14px;color:#444;}
+a {text-decoration:none;color:#666;}
+a:hover {color:#999}
+ul {}
+ol {}
+li {}
+
+.wrapper {width:960px;margin:0 auto;}
+.clr {clear:both;}
+.inner {padding:10px;}
+
+.alert { background:red; color:white } 
+
+.header {width:960px;height:160px;margin:0 auto;position:relative;margin-bottom:40px}
+.header .logo {position:absolute; top:0;left:0;width:300px;height:160px;background:#efefef;}
+.header .logo a {position:absolute; top:0;left:0;width:100%;height:100%;text-indent:-9999px;}
+.header .menu {position:absolute;right:0;bottom:0;list-style:none;}
+.header .menu li {float:left;}
+.header .menu li + li {margin-left:20px;}
+
+.content {margin-bottom:40px;}
+.content p {}
+.content a {}
+.content ul {}
+.content li {}
+.content blockquote {}
+
+.footer {width:960px;margin:0 auto 40px auto;}
+.footer .col {width:225px; float:left;}
+.footer .col + .col {margin-left:20px;}
