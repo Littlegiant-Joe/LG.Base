@@ -6,6 +6,11 @@ require_once TEMPLATEPATH . '/functions/post_types.php';
 require_once TEMPLATEPATH . '/functions/nav_menu.php';
 require_once TEMPLATEPATH . '/functions/multi_thumbnails.php';
 require_once TEMPLATEPATH . '/functions/metaboxes.php';
+require_once TEMPLATEPATH . '/functions/theme_options.php';
+
+//example widgets
+require_once TEMPLATEPATH . '/functions/widget_contact.php';
+require_once TEMPLATEPATH . '/functions/widget_order_now.php';
 
 ///////////////////////////////////////////////////////////////////////////////
 ////////////////////////////// MY FUNCTIONS ///////////////////////////////////
